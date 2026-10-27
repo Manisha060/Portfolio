@@ -1,0 +1,475 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manisha S | Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #8aa6c5, #d6e5f3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 15px;
+}
+
+.container {
+    width: 950px;
+    max-width: 100%;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.top {
+    display: flex;
+}
+
+.left-img {
+    width: 35%;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.left-img img {
+    width: 220px;
+    height: 220px;
+    max-width: 100%;
+    border-radius: 50%;
+    border: 6px solid white;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.right {
+    width: 65%;
+    background: linear-gradient(to right, #531939, #7a2754);
+    color: white;
+    padding: 40px 35px;
+}
+
+.right h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.right h3 {
+    color: #ffd166;
+    margin-bottom: 18px;
+}
+
+.right p {
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+.contact {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #ffd166;
+}
+
+.bottom {
+    display: flex;
+}
+
+.left {
+    width: 35%;
+    background: #f8f9fa;
+    padding: 30px 25px;
+}
+
+.right-content {
+    width: 65%;
+    padding: 30px;
+}
+
+.section {
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.section:hover {
+    transform: translateY(-2px);
+}
+
+.section h2 {
+    color: #531939;
+    border-bottom: 3px solid #531939;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+
+.section p {
+    margin: 9px 0;
+    color: #555;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.section ul {
+    margin-left: 20px;
+}
+
+.section li {
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.skill {
+    display: inline-block;
+    background: #531939;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin: 4px 2px;
+    font-size: 12px;
+}
+
+.project-title {
+    color: #531939;
+    font-weight: bold;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 6px;
+    color: #7a2754;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    padding: 18px;
+    background: #531939;
+    color: white;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    .top,
+    .bottom {
+        flex-direction: column;
+    }
+
+    .left-img,
+    .right,
+    .left,
+    .right-content {
+        width: 100%;
+    }
+
+    .left-img {
+        padding: 25px;
+    }
+
+    .left-img img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .right {
+        text-align: center;
+        padding: 30px 22px;
+    }
+
+    .right h1 {
+        font-size: 34px;
+    }
+
+    .contact {
+        align-items: center;
+    }
+
+    .left,
+    .right-content {
+        padding: 25px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- PROFILE HEADER -->
+    <div class="top">
+
+        <div class="left-img">
+            <img src="profile1.jpeg" alt="Manisha S Profile Photo">
+        </div>
+
+        <div class="right">
+
+            <h1>Manisha S</h1>
+
+            <h3>B.Tech Information Technology Student</h3>
+
+            <p>
+                Aspiring Cybersecurity Professional with an interest in
+                ethical hacking, network security, Python programming and
+                Artificial Intelligence. Passionate about developing
+                practical projects, solving technical problems and
+                continuously learning new technologies.
+            </p>
+
+            <div class="contact">
+                <!-- Replace these placeholders with your actual details -->
+                <span>📧 mnaishay8778@gmail.com</span>
+                <span>📍 Tamil Nadu, India</span>
+
+                <span>
+                    💻
+                    <a href="https://github.com/Manisha060"
+                       target="_blank" rel="noopener noreferrer">
+                        GitHub Profile
+                    </a>
+                </span>
+
+                <span>
+                    🔗
+                    <a href="https://www.linkedin.com/"
+                       target="_blank" rel="noopener noreferrer">
+                        LinkedIn Profile
+                    </a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="bottom">
+
+        <!-- LEFT COLUMN -->
+        <div class="left">
+
+            <div class="section">
+                <h2>Education</h2>
+
+                <p><b>B.Tech Information Technology</b></p>
+                <p>Velalar College of Engineering and Technology</p>
+                <p>2024 – 2028</p>
+
+                <br>
+
+                <p><b>Higher Secondary Education</b></p>
+                <p>School education completed before undergraduate studies.</p>
+            </div>
+
+            <div class="section">
+                <h2>Technical Skills</h2>
+
+                <div class="skill">Python</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">SQL</div>
+                <div class="skill">Computer Networks</div>
+                <div class="skill">Cybersecurity</div>
+                <div class="skill">Git & GitHub</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">MongoDB</div>
+                <div class="skill">Machine Learning</div>
+            </div>
+
+            <div class="section">
+                <h2>Career Interests</h2>
+
+                <p>✔ Cybersecurity</p>
+                <p>✔ SOC Analyst</p>
+                <p>✔ Ethical Hacking</p>
+                <p>✔ Network Security</p>
+                <p>✔ Artificial Intelligence</p>
+                <p>✔ Software Development</p>
+            </div>
+
+            <div class="section">
+                <h2>Languages</h2>
+
+                <p>✔ Tamil</p>
+                <p>✔ English</p>
+                <p>✔ Japanese – Basic</p>
+            </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="right-content">
+
+            <div class="section">
+                <h2>Career Objective</h2>
+
+                <p>
+                    To build a career in cybersecurity by strengthening
+                    my knowledge of networking, operating systems,
+                    Python and security fundamentals. I aim to gain
+                    practical experience through projects, certifications
+                    and internships while developing skills to identify
+                    and respond to cyber threats.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Projects</h2>
+
+                <ul>
+                    <li>
+                        <span class="project-title">
+                            Phishing Email Detection Model
+                        </span>
+                        <p>
+                            A machine-learning project focused on
+                            identifying suspicious emails and helping
+                            users recognize potential phishing threats.
+                        </p>
+                        <a class="project-link"
+                           href="https://github.com/Manisha060/Phishing-Email-Detection-Model"
+                           target="_blank" rel="noopener noreferrer">
+                            View on GitHub →
+                        </a>
+                    </li>
+
+                    <li>
+                        <span class="project-title">
+                            AI-Powered Quiz Platform
+                        </span>
+                        <p>
+                            An online quiz application featuring timed
+                            assessments, automatic scoring, performance
+                            analytics and a leaderboard.
+                        </p>
+                    </li>
+
+                    <li>
+                        <span class="project-title">
+                            Leave Management System
+                        </span>
+                        <p>
+                            A web-based application for managing employee
+                            leave requests and tracking approval status
+                            using a frontend, backend and database.
+                        </p>
+                    </li>
+
+                    <li>
+                        <span class="project-title">
+                            CropWind – AI Crop Disease Detection
+                        </span>
+                        <p>
+                            An AI-based application concept for helping
+                            identify crop diseases and support farmers
+                            with technology-driven insights.
+                        </p>
+                    </li>
+
+                    <li>
+                        <span class="project-title">
+                            AI-Powered Machine Health Monitoring
+                        </span>
+                        <p>
+                            An IoT-based project concept for monitoring
+                            machine sensor readings and detecting
+                            abnormal operating conditions.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Certifications & Learning</h2>
+
+                <ul>
+                    <li>Google Foundations of Cybersecurity</li>
+                    <li>AWS Skill Builder learning and certification activities</li>
+                    <li>Python Programming Practice</li>
+                    <li>Computer Networking Fundamentals</li>
+                </ul>
+
+                <p>
+                    Add your exact certificate titles and verification
+                    links before publishing this portfolio.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Research & Achievements</h2>
+
+                <ul>
+                    <li>
+                        Presented a research paper at ICAISS 2026 on
+                        an IoT-based patient-response monitoring gadget
+                        using a neckband sensor.
+                    </li>
+                    <li>Participated in technical projects and hackathon activities.</li>
+                    <li>
+                        Continuously learning cybersecurity, programming
+                        and emerging technologies.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Professional Goal</h2>
+
+                <p>
+                    Aspiring to become a Cybersecurity Engineer,
+                    beginning with SOC Analyst skills and progressing
+                    toward advanced security analysis, threat detection
+                    and incident response.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2026 Manisha S | Personal Portfolio
+    </div>
+
+</div>
+
+</body>
+</html>
+```
